@@ -1,0 +1,117 @@
+/* font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+
+html {
+    display: table;
+    margin: auto;
+    background-color: #efefef;
+
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 550px;
+    border: 5px dotted black;
+    
+}
+
+header {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;   
+}
+
+section {
+    border: 3px solid blue;
+}
+
+.articleGridContainer {
+    border: 3px dotted yellow;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.imgArticle {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.contenuArticle {
+    grid-column-start: 2; 
+    grid-column-end: 3;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+.titreH2Movies
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-info {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: red
+    color: rgb(199, 22, 22);
+}
+
+.social {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.psocial {
+    
+}
+
+.fa {
+
+}
+
+.movies {
+    display:flex;
+    flex-direction:column;    
+}
+
+footer {
+    
+}
