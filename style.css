@@ -9,17 +9,15 @@ font-family: 'Noto Serif SC', serif;
 html {
     display: table;
     margin: auto;
-    background-color: #efefef;
-
 }
 
 body {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
-    max-width: 550px;
-    border: 5px dotted black;
-    
+    max-width: 600px;
+    background-color: #c3bebeb4;  
+
 }
 
 header {
@@ -27,15 +25,18 @@ header {
     display: flex; 
     justify-content: center;
     align-items: center;
+    border: 3px solid blue;
 }
 
 img {
     display: block;
-    margin: 0 auto;   
+    margin: 0 auto;
+    margin-top: 20px;   
 }
 
 section {
     border: 3px solid blue;
+    margin: auto;
 }
 
 article {
@@ -83,14 +84,12 @@ h3 {
 }
 
 .icon {
-    margin-top: 10px;
 }
 
 .titreH2Movies
 
 p {
     font-family: 'Oswald'!important;
-    padding: 10px;
 }
 
 .btn-info {
@@ -106,7 +105,7 @@ p {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    margin: 10px 0px 10px 0px;
+
 }
 
 .psocial {
@@ -126,8 +125,8 @@ footer {
     
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:100%) {
     body {
-        background-color: black;
+        display: none;
     }
 }
