@@ -5,32 +5,16 @@ font-family: 'Lato', sans-serif;
 font-family: 'Noto Serif SC', serif;
 */
 
-html, body, #a {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
-
-#a {
-    display: table;
-}
-
-#b {
-    display: table-cell;
-    margin: 0;
-    padding: 0;
-
-    text-align: center;
-    vertical-align: middle;
+* {
+    box-sizing: border-box;
 }
 
 body {
     background: linear-gradient(155deg,#c6d0d3,#c2bfbf);
-    max-width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 200px;
+    max-width: 700px;
+    display: table;
+    margin: 0 auto!important;
 }
 
 header {
@@ -51,6 +35,7 @@ section {
     border: 3px solid blue;
     margin: auto;
     border-radius: 5px;
+
 }
 
 header, .social, section {
@@ -68,6 +53,7 @@ header, .social, section {
 .imgArticle {
     grid-column-start: 1;
     grid-column-end: 2;
+    float: left;
 
 }
 
