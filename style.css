@@ -10,7 +10,7 @@ font-family: 'Noto Serif SC', serif;
 }
 
 body {
-    background: linear-gradient(155deg,#c6d0d3,#c2bfbf);
+    background: linear-gradient(155deg,#c6d0d3,#f9faf7);
     min-width: 200px;
     max-width: 700px;
     display: table;
@@ -22,28 +22,32 @@ header {
     display: flex; 
     justify-content: center;
     align-items: center;
-    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+
 }
 
 img {
     display: block;
     margin: 0 auto;
     margin-top: 20px;   
+    border-radius: 15px;
 }
 
 section {
-    border: 3px solid blue;
+    width: 100%;
     margin: auto;
     border-radius: 5px;
+    border: 1px solid rgb(194, 194, 194);
 
 }
 
 header, .social, section {
-    background-color: rgb(253, 253, 253);
+    background: linear-gradient(175deg,#fafaf6,#e2e2e2);
+    margin: 10px;
 }
 
 .articleGridContainer {
-    border: 3px dotted yellow;
     margin: 5px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -88,20 +92,21 @@ h3 {
     height: 50px;
 }
 
+.icon:hover {
+    opacity: 0.9;
+}
+
 .titreH2Movies
 
 p {
     font-family: 'Oswald'!important;
 }
 
-.btn-info {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    background-color:rgb(199, 22, 22);
-    margin-top: 30px;
-    margin-bottom: 30px;
-
+.button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 .social {
